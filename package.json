@@ -1,0 +1,24 @@
+{
+    "name": "api-blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "install-server": "cd server && npm install",
+      "start-server": "cd server && node ./bin/www",
+      "install-client": "cd client && npm install",
+      "build-client": "cd client && npm run build",
+      "start-client": "cd client && npm run start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xlr8nur/api-blog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/xlr8nur/api-blog/issues"
+    },
+    "homepage": "https://github.com/xlr8nur/api-blog/#readme"
+  }
